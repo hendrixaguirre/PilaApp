@@ -16,5 +16,10 @@ namespace PilaApp
         {
             InitializeComponent();
         }
+
+        private void lblMensajes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
