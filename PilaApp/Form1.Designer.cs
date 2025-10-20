@@ -117,6 +117,7 @@
             this.btnAgregar.TabIndex = 9;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnEliminar
             // 
@@ -126,6 +127,7 @@
             this.btnEliminar.TabIndex = 10;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnTope
             // 
@@ -135,6 +137,7 @@
             this.btnTope.TabIndex = 11;
             this.btnTope.Text = "Ver Tope";
             this.btnTope.UseVisualStyleBackColor = true;
+            this.btnTope.Click += new System.EventHandler(this.btnTope_Click);
             // 
             // groupBox1
             // 
@@ -162,7 +165,6 @@
             this.lblMensajes.TabIndex = 13;
             this.lblMensajes.Text = "Mensajes";
             this.lblMensajes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblMensajes.Click += new System.EventHandler(this.lblMensajes_Click);
             // 
             // Form1
             // 
